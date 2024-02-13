@@ -15,6 +15,13 @@
     background-color: var(--primary);
 }
 
+.header .button-wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+}
+
 .topbar.active {
     display: flex;
 }
