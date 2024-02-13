@@ -1,0 +1,270 @@
+.banner {
+    justify-content: center;
+    height: 70vh;
+    background-image: url('/about/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner .row {
+    color: var(--white);
+    z-index: 10;
+}
+
+.banner.section .row.flex-col.center {
+    gap: 0;
+}
+
+.banner h1,
+.banner p {
+    text-align: center;
+    width: 55%;
+}
+
+.usp-wrapper {
+    justify-content: center;
+    width: 100%;
+}
+
+.usp-wrapper .item {
+    flex: 1 0;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: var(--borderRadius);
+    color: var(--black);
+    background-color: var(--white);
+}
+.usp-wrapper .item p,
+.usp-wrapper .item a {
+    text-align: left;
+    width: 100%;
+}
+
+.usp-wrapper .item .heading {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.usp-wrapper .item a {
+    margin-top: 20px;
+}
+
+.reviews.section {
+    background-color: var(--light-grey);
+}
+
+.reviews.section,
+.reviews.section .row {
+    min-height: 30vh;
+}
+
+.reviews.section h2 {
+    color: var(--white);
+}
+
+.reviews.section .row .review-wrapper {
+    flex-direction: column;
+    color: var(--white);
+}
+
+.reviews.section .row .review-wrapper .review-author {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.dots {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.dots .dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--primary);
+    opacity: 0.4;
+    transition: var(--transition);
+}
+
+.dots .dot:hover {
+    cursor: pointer;
+}
+
+.dots .dot.active {
+    opacity: 1;
+    transition: var(--transition);
+}
+
+.review .review-wrapper {
+    width: 100%;
+    align-items: center;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.review .review-wrapper .item .quote {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.review .review-wrapper .item .author {
+    opacity: 0.7;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.review .review-wrapper .item a {
+    color: var(--white);
+    font-weight: 400;
+}
+
+.animated.section,
+.animated.section .row {
+    min-height: 20vh;
+}
+
+.animated-wrapper {
+    width: 100%;
+}
+
+.animated-wrapper .item {
+    flex: 1 0;
+    align-items: center;
+    color: var(--white);
+}
+
+.animated-wrapper .item .counter {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.animated-wrapper .item .description {
+    font-size: 16px;
+}
+
+.memberships-wrapper {
+    width: 100%;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.memberships-wrapper .item {
+    flex: 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: var(--borderRadius);
+    box-shadow: var(--boxShadow);
+}
+
+.memberships-wrapper .item .heading {
+    width: fit-content;
+    background-color: var(--light-grey);
+    padding: 10px 30px;
+    border-radius: var(--borderRadius);
+}
+
+.memberships-wrapper .item .heading p {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--white);
+}
+
+.memberships-wrapper .item .membership-usp {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.memberships-wrapper .item .membership-usp li:before {
+    content: "✓";
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.memberships-wrapper .item .membership-break {
+    width: 100%;
+    margin: 20px auto;
+    border: 1px dotted var(--primary);
+}
+
+.memberships-wrapper .item .price {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.memberships-wrapper .item .description {
+    color: var(--primary);
+}
+
+.memberships-wrapper .item .intro {
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.memberships-wrapper .item .btn {
+    margin-top: 40px;
+}
+
+.memberships-wrapper .item {
+    transition: var(--transition);
+}
+
+.memberships-wrapper .item:hover {
+    border: 2px solid var(--primary);
+    transition: var(--transition);
+}
+
+.memberships-wrapper .item:hover .heading {
+    background-color: var(--primary);
+}
+
+@media (max-width: 560px) {
+    .banner.section,
+    .banner.section .row {
+        height: 50vh;
+    }
+
+    .banner h1,
+    .banner p {
+        width: 100%;
+    }
+
+    .usp-wrapper .item .heading {
+        font-size: 20px;
+    }
+
+    .animated-wrapper .item {
+        flex: 1 0 100%;
+    }
+
+    .animated-wrapper .item .counter {
+        font-size: 36px;
+    }
+
+    .animated-wrapper .item .description {
+        font-size: 14px;
+    }
+
+    .memberships-wrapper {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 860px) {
+    .usp-wrapper .item  {
+        flex: 1 0 100%;
+    }
+}
