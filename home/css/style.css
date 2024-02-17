@@ -270,4 +270,38 @@
     .memberships-wrapper {
         margin-top: 0;
     }
+
+    .banner .large {
+        font-size: 18px;
+    }
+
+    .values-wrapper .item h3 {
+        font-size: 20px;
+    }
+
+    .values-wrapper .item {
+        flex: 1 0 100%;
+    }
+
+    .diensten-wrapper .item .content h3,
+    .projects-wrapper .item .content h3 {
+        font-size: 16px;
+    }
+
+    .diensten-wrapper .item .content a,
+    .projects-wrapper .item .content a {
+        font-size: 14px;
+    }
+
+    .projects-wrapper .item {
+        flex: 1 0 40%;
+    }
+
+    .form-wrapper {
+        padding: 0;
+    }
+
+    .values-wrapper .item i {
+        font-size: 30px;
+    }
 }
