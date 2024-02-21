@@ -88,7 +88,6 @@ img.bg {
 .section .row {
     width: 100%;
     max-width: 1600px;
-
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -122,10 +121,9 @@ img.bg {
 
 .btn {
     width: fit-content;
-    font-weight: 600;
+    font-weight: 700;
     text-decoration: none;
     text-align: center;
-    text-transform: uppercase;
     color: var(--white);
     background-color: var(--primary);
     border: 1px solid var(--primary);
