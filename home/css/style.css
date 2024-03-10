@@ -151,9 +151,10 @@
     transform: translate(-50%, -50%);
 }
 
-.projects-wrapper .item .content h3,
-.projects-wrapper .item .content a {
+.projects-wrapper .item .content h3 {
     color: var(--white);
+    text-align: center;
+    font-size: 24px;
 }
 
 .projects-wrapper .item .overlay {

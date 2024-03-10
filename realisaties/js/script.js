@@ -1,24 +1,40 @@
 function addProjects(e) {
     const projects = [
         {
-            title: "Voorbeeld project",
-            img: "/realisaties/img/temp.jpg",
-            link: "/realisaties/project-1/",
+            title: "Renovatie appartement",
+            img: "/realisaties/img/appartement-zeebrugge.jpg",
         },
         {
-            title: "Voorbeeld project",
-            img: "/realisaties/img/temp.jpg",
-            link: "/realisaties/project-1/",
+            title: "Volledige make-over",
+            img: "/realisaties/img/terras.jpg",
         },
         {
-            title: "Voorbeeld project",
-            img: "/realisaties/img/temp.jpg",
-            link: "/realisaties/project-1/",
+            title: "Renovatie appartement",
+            img: "/realisaties/img/natienlaan.jpg",
         },
         {
-            title: "Voorbeeld project",
-            img: "/realisaties/img/temp.jpg",
-            link: "/realisaties/project-1/",
+            title: "Vernieuwen interieur",
+            img: "/realisaties/img/astoria.jpg",
+        },
+        {
+            title: "Totaal interieur inrichting",
+            img: "/realisaties/img/bar-a-boire.jpg",
+        },
+        {
+            title: "Totaalrenovatie",
+            img: "/realisaties/img/dumortierlaan.jpg",
+        },
+        {
+            title: "Renovatie & isolatie",
+            img: "/realisaties/img/gevel.jpg",
+        },
+        {
+            title: "Voor fijnproevers",
+            img: "/realisaties/img/keuken-installatie.jpg",
+        },
+        {
+            title: "Totaalrenovatie",
+            img: "/realisaties/img/penthouse.jpg",
         },
     ];
 
@@ -28,23 +44,19 @@ function addProjects(e) {
         return;
     }
 
-    const cards = projects.map(item => {
+    const shuffledArray = projects.sort((a, b) => 0.5 - Math.random());
+    const cards = shuffledArray.map(item => {
 
         return `
-            <a href="${item.link}" class="item-link">
-                <div class="item">
-                    <img src="${item.img}" alt="${item.title}">
-                    <div class="content">
-                        <h3>
-                            ${item.title}
-                        </h3>
-                        <p class="read-more">
-                            Lees meer
-                        </p>
-                    </div>
-                    <div class="overlay"></div>
+            <div class="item">
+                <img src="${item.img}" alt="${item.title}">
+                <div class="content">
+                    <h3>
+                        ${item.title}
+                    </h3>
                 </div>
-            </a>
+                <div class="overlay"></div>
+            </div>
         `;
     }).join('');
 

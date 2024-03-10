@@ -42,14 +42,9 @@
     transition: var(--transition);
 }
 
-.item-link {
-    flex: 1 0 40%;
-    display: block;
-    text-decoration: none;
-}
-
 .item {
     position: relative;
+    flex: 1 0 40%;
 }
 
 .item img {
@@ -87,7 +82,7 @@ h3 {
     transition: var(--transition);
 }
 
-.project-wrapper .item-link:hover .overlay {
+.project-wrapper .item:hover .overlay {
     background: var(--black);
     opacity: 0.6;
     transition: var(--transition);
