@@ -16,3 +16,8 @@
 .banner.section .row {
     min-height: 80vh;
 }
+
+.banner.contact .legal .legal-item a, 
+.banner.contact .legal .legal-item p {
+    color: var(--white);
+}
