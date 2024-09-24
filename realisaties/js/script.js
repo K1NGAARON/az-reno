@@ -12,18 +12,18 @@ function addProjects(e) {
             title: "Renovatie appartement",
             img: "/realisaties/img/natienlaan.jpg",
         },
-        {
-            title: "Vernieuwen interieur",
-            img: "/realisaties/img/astoria.jpg",
-        },
-        {
-            title: "Totaal interieur inrichting",
-            img: "/realisaties/img/bar-a-boire.jpg",
-        },
-        {
-            title: "Totaalrenovatie",
-            img: "/realisaties/img/dumortierlaan.jpg",
-        },
+        // {
+        //     title: "Vernieuwen interieur",
+        //     img: "/realisaties/img/astoria.jpg",
+        // },
+        // {
+        //     title: "Totaal interieur inrichting",
+        //     img: "/realisaties/img/bar-a-boire.jpg",
+        // },
+        // {
+        //     title: "Totaalrenovatie",
+        //     img: "/realisaties/img/dumortierlaan.jpg",
+        // },
         {
             title: "Renovatie & isolatie",
             img: "/realisaties/img/gevel.jpg",
