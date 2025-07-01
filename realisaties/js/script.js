@@ -2,35 +2,15 @@ function addProjects(e) {
     const projects = [
         {
             title: "Renovatie appartement",
-            img: "/realisaties/img/appartement-zeebrugge.jpg",
+            img: "/home/img/interior/Renovatie binnen 3.jpg",
         },
         {
             title: "Volledige make-over",
-            img: "/realisaties/img/terras.jpg",
+            img: "/home/img/interior/Renovatie binnen 5.jpg",
         },
         {
             title: "Renovatie appartement",
             img: "/realisaties/img/natienlaan.jpg",
-        },
-        // {
-        //     title: "Vernieuwen interieur",
-        //     img: "/realisaties/img/astoria.jpg",
-        // },
-        // {
-        //     title: "Totaal interieur inrichting",
-        //     img: "/realisaties/img/bar-a-boire.jpg",
-        // },
-        // {
-        //     title: "Totaalrenovatie",
-        //     img: "/realisaties/img/dumortierlaan.jpg",
-        // },
-        {
-            title: "Renovatie & isolatie",
-            img: "/realisaties/img/gevel.jpg",
-        },
-        {
-            title: "Voor fijnproevers",
-            img: "/realisaties/img/keuken-installatie.jpg",
         },
         {
             title: "Totaalrenovatie",
